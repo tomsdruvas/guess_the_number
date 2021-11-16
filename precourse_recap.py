@@ -1,10 +1,13 @@
+import random
+
+var1 = (random.randint(1,9))
+
+
+
+
 
 def main():
-    guess = input("Guess what number I'm hidding: ")
-
-    var1 = "5"
-
-
+    guess = int(input("Guess what number I'm hidding: "))
     if var1 == guess:
         print("You guessed the number")
     elif var1 <= guess:
